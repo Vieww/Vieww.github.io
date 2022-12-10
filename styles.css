@@ -30,6 +30,7 @@ a:hover {
 nav a{
   flex:1;
   color:white;
+  width:20%;
 }
 nav a:hover {
   color:white;
