@@ -1,5 +1,4 @@
 const customName = document.getElementById('customname');
-const name = customName.value;
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -44,6 +43,12 @@ function result() {
 let num1=4+ Math.floor(Math.random() * 3);
 let num2=4+ Math.floor(Math.random() * 3);
 let num3=18-num1-num2;
+  
+if(customName.value !== '') {
+   const name = customName.value;
+  }else{
+    const name = '煎饼果子'
+    }
 
 rawText.push(randomValueFromArray(a1));
 rawText.push(my+name);
