@@ -18,7 +18,6 @@ nav ul {
   color:white;
   background-color:navy;
   list-style: none;
-  width:20%;
 }
 
 a{
@@ -36,6 +35,10 @@ a:hover {
 nav a{
   color:white;
   text-decoration: none;
+}
+
+nav ul li{
+  width:20%;
 }
 
 nav a:hover {
