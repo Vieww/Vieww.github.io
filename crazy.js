@@ -24,7 +24,7 @@ function randomValueFromArray(array){
   
 function punc(){
   const pun=Math.floor(Math.random() * punclist.length);
-  return punclist[random];
+  return punclist[pun];
 }
 
 function be(){
@@ -44,9 +44,9 @@ let num1=4+ Math.floor(Math.random() * 3);
 let num2=4+ Math.floor(Math.random() * 3);
 let num3=18-num1-num2;
 
-rawText.push(randomValueFromArray(a1))
-rawText.push(my+name)
-rawText.push(my+randomValueFromArray(a2)+'般的'+name)
+rawText.push(randomValueFromArray(a1));
+rawText.push(my+name);
+rawText.push(my+randomValueFromArray(a2)+'般的'+name);
 
 for (let i = 0; i < num1; i++) {
   rawText.push(be()+randomValueFromArray(a2));
@@ -62,7 +62,7 @@ for (let i = 0; i < num3; i++) {
 
 for (let i = 0; i < rawText.length; i++) {
   storyText.push(rawText[i]);
-  storyText.push(randomValueFromArray(punclist));
+  storyText.push(punc());
 }
 
   newStory = storyText.join(',');
