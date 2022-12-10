@@ -26,9 +26,15 @@ a:link {
 a:hover {
     text-decoration: none;
 }
+
+nav ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
 nav ul li{
   flex:1;
-  text-decoration: none;
   color:white;
 }
 nav a:hover {
