@@ -33,7 +33,7 @@ nav ul{
   flex-direction: row;
 }
 
-nav ul li{
+nav a{
   flex:1;
   color:white;
 }
