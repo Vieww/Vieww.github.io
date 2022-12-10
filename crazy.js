@@ -1,4 +1,5 @@
-const customName = document.getElementById('name');
+const customName = document.getElementById('customname');
+const name = customName.value;
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -59,13 +60,17 @@ for (let i = 0; i < num2; i++) {
 for (let i = 0; i < num3; i++) {
   rawText.push(me+randomValueFromArray(a4));
 }
-
+ 
+for (let i=0; i < 3+Math.floor(Math.random()*4;i++){
+  rawText.splice(Math.floor(Math.random() * rawText.length),0,name);
+}            
+  
 for (let i = 0; i < rawText.length; i++) {
   storyText.push(rawText[i]);
   storyText.push(punc());
 }
 
-  newStory = storyText.join(',');
+  newStory = storyText.join('');
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
