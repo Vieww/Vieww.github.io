@@ -15,7 +15,6 @@ nav{
   display: flex;
   flex-direction: row;
   background-color:navy;
-  list-style: none;
   color:white;
 }
 a{
@@ -26,13 +25,6 @@ a:link {
 }
 a:hover {
     text-decoration: none;
-}
-
-nav ul{
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  color:white;
 }
 
 nav a{
