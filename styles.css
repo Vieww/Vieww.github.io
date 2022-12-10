@@ -16,6 +16,7 @@ nav{
   flex-direction: row;
   background-color:navy;
   list-style: none;
+  color:white;
 }
 a{
 font-weight:bold
@@ -31,6 +32,7 @@ nav ul{
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  color:white;
 }
 
 nav a{
