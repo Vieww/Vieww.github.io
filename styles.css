@@ -13,9 +13,11 @@
 }
 
 nav{
+    color:white;
     float:left;
     width: 19.5%;
     margin-right: 0.625%;
+    background-color:navy;
 }
 
 a{
