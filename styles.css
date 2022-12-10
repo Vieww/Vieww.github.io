@@ -1,20 +1,19 @@
 @media screen and (min-width: 601px) {
   /* 设置电脑上字号的大小 */
-  body,nav ul li{
+  body{
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 600px) {
   /* 设置手机上字号的大小 */
-  body,nav ul li {
+  body{
     font-size: 30px;
   }
 }
 nav{
   display: flex;
   flex-direction: row;
-  color:white;
   background-color:navy;
   list-style: none;
 }
@@ -29,9 +28,12 @@ a:hover {
 }
 nav a{
   text-decoration: none;
+  color:white;
 }
 nav ul li{
   flex:1;
+  text-decoration: none;
+  color:white;
 }
 nav a:hover {
   color:white;
