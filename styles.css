@@ -26,6 +26,8 @@ a:hover {
 p {
   color: black;
   font-family: "SimSun";
+  line-height:1.5;
+  text-indent:2;
 }
 img {
   display: block;
