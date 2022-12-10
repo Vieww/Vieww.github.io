@@ -1,18 +1,24 @@
 @media screen and (min-width: 601px) {
   /* 设置电脑上字号的大小 */
-  body{
-    font-size: 18px;
-  }
   p{
     width: 80%;
     margin: 0 auto;
+    font-size: 18px;
+    color: black;
+    font-family: "SimSun";
+    line-height:1.5;
+    text-indent:2em;
   }
 }
 
 @media screen and (max-width: 600px) {
   /* 设置手机上字号的大小 */
-  body{
+  p{
     font-size: 30px;
+    color: black;
+  font-family: "SimSun";
+  line-height:1.5;
+  text-indent:2em;
   }
 }
 
@@ -39,12 +45,7 @@ nav a{
 nav a:hover {
   color:white;
 }
-p {
-  color: black;
-  font-family: "SimSun";
-  line-height:1.5;
-  text-indent:2em;
-}
+
 img {
   display: block;
   margin: 0 auto;
