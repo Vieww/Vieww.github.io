@@ -7,7 +7,7 @@ p{
   text-indent:2em;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 600px) {
   /* 设置电脑上字号的大小 */
   p{
     width: 80%;
