@@ -5,6 +5,12 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  /* 设置电脑上文字宽度 */
+  p{
+    width: 80%;
+  }
+}
 @media screen and (max-width: 600px) {
   /* 设置手机上字号的大小 */
   body{
