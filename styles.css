@@ -1,6 +1,6 @@
 @media screen and (min-width: 601px) {
   /* 设置电脑上字号的大小 */
-  body, nav, form{
+  body{
   body,nav ul li{
     font-size: 18px;
   }
@@ -8,29 +8,32 @@
 
 @media screen and (max-width: 600px) {
   /* 设置手机上字号的大小 */
-  body, nav, form {
+  body {
   body,nav ul li {
     font-size: 30px;
   }
 }
-nav{
+nav {
   display: flex;
   flex-direction: row;
   color:white;
   background-color:navy;
   list-style: none;
 }
+  
 a{
 font-weight:bold
 }
+  
 a:link {
     color: navy;
 }
+  
 a:hover {
     text-decoration: none;
 }
+  
 nav ul li{
-   color:white;
   text-decoration: none;
   flex:1;
 }
