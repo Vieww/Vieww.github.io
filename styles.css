@@ -16,11 +16,13 @@ nav {
   display: flex;
   flex-direction: row;
   color:white;
-  width: 19.5%;
-  margin-right: 0.625%;
   background-color:navy;
 }
-  
+
+nav a{
+  width: 20%
+}  
+
 a{
 font-weight:bold
 }
