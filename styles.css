@@ -12,6 +12,17 @@
   }
 }
 
+a{
+font-weight:bold
+}
+
+a:link {
+    color: navy;
+}
+
+a:hover {
+    text-decoration: none;
+}
 p {
   color: black;
   font-family: "SimSun";
