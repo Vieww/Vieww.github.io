@@ -38,7 +38,7 @@ nav a{
 }
 
 nav ul li{
-  width:20%;
+  flex:1;
 }
 
 nav a:hover {
