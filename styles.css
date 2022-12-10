@@ -18,8 +18,9 @@ nav{
     width: 19.5%;
     margin-right: 0.625%;
     background-color:navy;
+    display:inline;
 }
-
+  
 a{
 font-weight:bold
 }
@@ -31,12 +32,23 @@ a:link {
 a:hover {
     text-decoration: none;
 }
+
+nav a{
+  color:white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:white;
+}
+
 p {
   color: black;
   font-family: "SimSun";
   line-height:1.5;
   text-indent:2;
 }
+
 img {
   display: block;
   margin: 0 auto;
