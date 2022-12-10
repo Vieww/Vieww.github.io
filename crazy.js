@@ -61,7 +61,7 @@ for (let i = 0; i < num3; i++) {
   rawText.push(me+randomValueFromArray(a4));
 }
  
-for (let i=0; i < 3+Math.floor(Math.random()*4;i++){
+for (let i=0; i < 3+Math.floor(Math.random()*4);i++) {
   rawText.splice(Math.floor(Math.random() * rawText.length),0,name);
 }            
   
