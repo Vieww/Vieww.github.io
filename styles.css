@@ -1,4 +1,10 @@
+font-family: sans-serif;
 p {
   color: green;
-  font-size:22px 
+  font-family: 宋体;
+  font-size:22px ；
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
