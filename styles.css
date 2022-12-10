@@ -26,8 +26,10 @@ a:link {
 a:hover {
     text-decoration: none;
 }
-nav a{
+nav ul{
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
   color:white;
 }
 nav ul li{
