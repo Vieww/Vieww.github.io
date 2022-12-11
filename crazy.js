@@ -32,23 +32,22 @@ function be(){
   return ['是','是','你是'][be];
 }
 
-randomize.addEventListener('click', result);
-
 let rawText=[];
 let storyText=[];
 
+randomize.addEventListener('click', result);
+
 function result() {
-  let newStory = storyText;
+  
+let name = document.getElementById('customname');
+
+  if (name ===''){
+  name = '煎饼果子';
+  }
   
 let num1=4+ Math.floor(Math.random() * 3);
 let num2=4+ Math.floor(Math.random() * 3);
 let num3=18-num1-num2;
-  
-if(customName.value !== '') {
-   const name = customName.value;
-  }else{
-    const name = '煎饼果子'
-    }
 
 rawText.push(randomValueFromArray(a1));
 rawText.push(my+name);
@@ -75,7 +74,7 @@ for (let i = 0; i < rawText.length; i++) {
   storyText.push(punc());
 }
 
-  newStory = storyText.join('');
+  let newStory = storyText.join('');
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
