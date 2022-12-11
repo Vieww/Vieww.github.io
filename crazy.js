@@ -39,7 +39,7 @@ randomize.addEventListener('click', result);
 
 function result() {
   
-let name = document.getElementById('customname');
+let name = customName.value;
 
   if (name ===''){
   name = '煎饼果子';
