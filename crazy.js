@@ -32,22 +32,22 @@ function be(){
   return ['是','是','你是'][be];
 }
 
-let rawText=[];
-let storyText=[];
+
 
 randomize.addEventListener('click', result);
 
 function result() {
-  
-let name = customName.value;
+const rawText=[];
+const storyText=[];
+var name = customName.value;
 
   if (name ===''){
   name = '煎饼果子';
   }
   
-let num1=4+ Math.floor(Math.random() * 3);
-let num2=4+ Math.floor(Math.random() * 3);
-let num3=18-num1-num2;
+let num1=6+ Math.floor(Math.random() * 3);
+let num2=6+ Math.floor(Math.random() * 3);
+let num3=22-num1-num2;
 
 rawText.push(randomValueFromArray(a1));
 rawText.push(my+name);
@@ -75,6 +75,6 @@ for (let i = 0; i < rawText.length; i++) {
 }
 
   let newStory = storyText.join('');
-  story.textContent = newStory;
-  story.style.visibility = 'visible';
+  story.textContent=newStory;
+  story.style.visibility='visible';
 }
