@@ -7,6 +7,14 @@ p{
   text-indent: 2em;
 }
 
+/* 结果输出框 */
+.story {
+    width: 600px;
+  font-size: 30px;
+ background-color: aliceblue;
+ margin: 0 auto;
+  }
+
 @media (min-width: 600px) {
   /* 设置电脑上字号的大小 */
   p{
@@ -18,21 +26,11 @@ p{
     line-height: 1.5;
     text-indent: 2em;
   }
+  .story {
+    width: 60%;
+    font-size: 18px;}
 }
 
-/* 结果输出框 */
-.story {
- width: 60%;
- font-size: 18px;
- background-color: aliceblue;
- margin: 0 auto;
-}
-
-@media (min-width: 600px) {
-  .text-box {
-    width: 600px;
-  }
-}
 a{
 font-weight: bold;
 }
