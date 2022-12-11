@@ -58,7 +58,7 @@ for (let i = 0; i < num1; i++) {
 }
 
 for (let i = 0; i < num2; i++) {
-  rawText.push(be()+randomValueFromArray(a3));
+  rawText.push(randomValueFromArray(a33)+randomValueFromArray(a3));
 }
 
 for (let i = 0; i < num3; i++) {
