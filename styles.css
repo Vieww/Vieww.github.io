@@ -45,6 +45,7 @@ h1{
       font-family: "SimSun";
       line-height: 1.5;
       text-indent: 2em;
+      
   }
 .summary{
   margin: 0 auto;
@@ -105,8 +106,9 @@ article{
       font-size: 30px;
       line-height: 1.5;
       text-indent: 2em;
-      width:100%-2em;
-  
+      padding:1em;
+    box-sizing: border-box;
+    width:100%;
       
   }
   p {
