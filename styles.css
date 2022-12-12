@@ -57,7 +57,7 @@
     }
   
   /* 设置手机上字号的大小 */
- @media (max-width: 600px) {
+ @media (max-width: 1079px) {
   p {
     font-size: 30px;
     text-indent: 2em;
