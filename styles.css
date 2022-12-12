@@ -38,7 +38,14 @@ h1{
   text-align: center;
   font-family: "Microsoft YaHei";
 }
-
+ article{
+      margin:0 auto;
+      font-size: 18px;
+      color: black;
+      font-family: "SimSun";
+      line-height: 1.5;
+      text-indent: 2em;
+  }
 .summary{
   margin: 0 auto;
   font-size: 16px;
@@ -63,12 +70,6 @@ h1{
   /*电脑端优先*/
  article{
       width: 80%;
-      margin:0 auto;
-      font-size: 18px;
-      color: black;
-      font-family: "SimSun";
-      line-height: 1.5;
-      text-indent: 2em;
   }
   section{
     width:60%;
@@ -104,7 +105,8 @@ article{
       font-size: 30px;
       line-height: 1.5;
       text-indent: 2em;
-      width:100%;
+      width:100%-50px;
+  
       
   }
   p {
