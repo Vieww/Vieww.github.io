@@ -5,10 +5,11 @@
 
   a:link {
     color: navy;
+
   }
 
   a:hover {
-    text-decoration: none;
+     text-decoration: none;
   }
 
   nav {
@@ -20,10 +21,12 @@
     display: inline-block;
     width: 20%;
     color: white;
+    text-decoration: none;
   }
 
   nav a:hover {
     color: white;
+    text-decoration: underline;
   }
 
   img {
@@ -49,16 +52,29 @@
     font-size: 18px;
     background-color: aliceblue;
     margin: 0 auto;
+    line-height: 1.5;
     padding: 25px
     }
   
   /* 设置手机上字号的大小 */
- @media (max-width: 1279px) {
+ @media (max-width: 600px) {
   p {
     font-size: 30px;
     text-indent: 2em;
     box-sizing: border-box;
     width:100%
+  }
+  
+  h1{
+    font-size: 35px;
+  }
+  
+  input[type="button"], input[id="customname"] {
+  font-size: 30px;
+}
+  
+  nav{
+    font-size: 25px;
   }
 
   /* 结果输出框 */
@@ -68,8 +84,5 @@
     width:100%
   }
 
-  nav a {
-    font-size: 20px;
-  }
   }
 
