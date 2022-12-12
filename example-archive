@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Vieww">
+    <meta name="description" content="我是Vieww，这是疯言疯语生成器">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <title>疯言疯语生成器</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="crazy.js" defer></script>
+  </head>
+ <body>
+    <header> <!-- 本站所有网页的统一主标题 -->
+      <h1>Vieww在尝试制作个人站的样子……</h1>
+    </header>
+    <br>
+    <nav> <!-- 本站统一的导航栏 -->
+      <ul>
+        <!-- 共 n 个导航栏项目，省略…… -->
+        <a href="https://vieww.github.io/">主页</a>
+        <a href="https://vieww.github.io/crazyword.html">一键发疯</a>
+      </ul>
+       </nav>
+       
+     <br>
+<section class='title-box'>
+<p><span class='tag' id='type'>小说</span> -
+<span class='tag' id='origin'>原创</span> -
+<span class='tag' id='progress'>完结</span></p>
+<p><span class='tag' id='edge'>非边限</span> -
+<span class='tag' id='gender'>gl</span> -
+<span class='tag' id='end'>be</span></p>
+<p class=‘time’>2022-12-12</p>
+</section>
+  
+<article>
+<h1>田螺程序员</h1>
+<hr>
+<p class='summary'>摘要：这是一个只供测试的短文章模板。</p>
+<p class='note'>预警：主要角色死亡</p>
+
+<hr>
+<p>一天，历历回到<a href="https://vieww.github.io/">个人站</a>，发现网页上多了一个田螺姑娘。</p>
+<p>历历顿时想起了著名作家杜贯通说过的话。</p>
+<blockquote>如果你想要编程，第一步是吃点药，然后躺在床上让自己冷静下来。如果你死性不改还想编程，那就拜托伟大的田螺姑娘吧！</blockquote>
+<p>或者用英文：“If you want to code, the first step is giving up. Or ask seafood girl for help!”</p>
+<p>于是历历问：“田螺姑娘啊田螺姑娘，请问你能帮我编程吗？我想实现按标签归档、搜索和搭载Python小程序！”</p>
+<p>田螺姑娘无情地回答：“你做什么美梦呢。”</p>
+<p>历历哇哇大哭，并把田螺姑娘做成烤田螺吃掉了。这就是一个主要角色死亡的故事。</p>
+</article>  
+  </body>
+  </html>
