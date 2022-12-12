@@ -99,7 +99,7 @@ h1{
 
   
   /* 设置手机上字号的大小 */
- @media (max-width: 600px) {
+ @media (max-width: 1279px) {
 article{
       font-size: 30px;
       line-height: 1.5;
