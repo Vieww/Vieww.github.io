@@ -2,12 +2,21 @@
    a {
     font-weight: bold;
   }
-
+section{
+    background-color: aliceblue;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid #ccc;
+    
+}
   a:link {
     color: navy;
 
   }
-
+hr{
+  width:50%;
+}
   a:hover {
      text-decoration: none;
   }
@@ -23,7 +32,24 @@
     color: white;
     text-decoration: none;
   }
+  
+h1{
+  color:navy;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+}
 
+.summary{
+  margin: 0 auto;
+  font-size: 16px;
+  width:70%;
+}
+
+.note{
+  margin: 0 auto;
+  font-size: 16px;
+  width:70%;
+}
   nav a:hover {
     color: white;
     text-decoration: underline;
@@ -35,38 +61,67 @@
   }
   
   /*电脑端优先*/
-  
-  p {
+ article{
       width: 80%;
-      margin: 0 auto;
+      margin:0 auto;
       font-size: 18px;
       color: black;
       font-family: "SimSun";
       line-height: 1.5;
       text-indent: 2em;
-      padding: 25px
+  }
+  section{
+    width:60%;
+  }
+  p {
+      margin-top: 1em;
+      margin-bottom: 1em;
+     
    }
 
 .story {
     width: 60%;
-    font-size: 18px;
     background-color: aliceblue;
     margin: 0 auto;
     line-height: 1.5;
     padding: 25px
     }
+    
+ blockquote {
+  text-indent: 2em;
+  margin:10% auto;
+  margin-top: 1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  padding-left: 5%;
+  border-left: 3px solid #ccc;
+}
+
   
   /* 设置手机上字号的大小 */
- @media (max-width: 1279px) {
+ @media (max-width: 600px) {
+article{
+      font-size: 30px;
+      line-height: 1.5;
+      text-indent: 2em;
+      width:100%;
+      
+  }
   p {
-    font-size: 30px;
-    text-indent: 2em;
     box-sizing: border-box;
-    width:100%
+
   }
   
   h1{
     font-size: 35px;
+  }
+  .summary{
+    font-size: 25px;
+    width:80%;
+  }
+ .note{
+    font-size: 25px;
+    width:80%;
   }
   
   input[type="button"], input[id="customname"] {
@@ -77,12 +132,25 @@
     font-size: 25px;
   }
 
+  blockquote {
+  margin-left:5%;
+  border-left: 3px solid #ccc;
+}
+
   /* 结果输出框 */
   .story {
     font-size: 30px; 
+    padding:1em;
     box-sizing: border-box;
-    width:100%
+    width:100%;
   }
-
+  
+section{
+  margin:1em auto;
+  padding:1em;
+  font-size: 25px; 
+  width: calc(100% - 4em);
+    
+}
   }
 
